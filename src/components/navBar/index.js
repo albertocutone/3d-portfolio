@@ -60,7 +60,7 @@ const NavBar = () => {
   const [windowWidth, setWindowWidth] = useState(innerWidth);
   const [playAudio, setPlayingAudio] = useState(true);
   const audio = useRef();
-  let userinteraction = 0;
+  let userInteraction = 0;
 
   useEffect(() => {
     if (!audio.current) {
@@ -68,8 +68,8 @@ const NavBar = () => {
       audio.current.loop = true;
 
       document.addEventListener('click', () => {
-        if (userinteraction) return;
-        userinteraction++;
+        if (userInteraction) return;
+        userInteraction++;
         audio.current.play();
         setPlayingAudio(!audio.current.paused);
       });
