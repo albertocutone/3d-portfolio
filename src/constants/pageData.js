@@ -7,7 +7,7 @@
   displayPosition is the offset of the default camara position when facing the cube.
 */
 
-export const PAGE_DEPH_MARGIN = 15;
+export const PAGE_DEPTH_MARGIN = 15;
 
 export const EXPERIENCE = {
   rows: 2,
@@ -24,27 +24,24 @@ export const EXPERIENCE = {
   },
   items: [
     {
-      url: 'websites-preview/optic-logo.png',
-      websiteURL: 'https://optic.id/',
+      url: 'websites-preview/meta-logo.png',
+      websiteURL: 'https://about.meta.com/realitylabs/',
     },
     {
-      url: 'websites-preview/good-dollar.jpeg',
-      websiteURL: 'https://www.gooddollar.org/',
+      url: 'websites-preview/matica-logo.png',
+      websiteURL: 'https://www.maticagroup.com/',
     },
     {
-      url: 'websites-preview/cs2.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/cs.html', //optional open url in new tab
+      url: 'websites-preview/cern-logo.jpg',
+      websiteURL: 'https://home.cern/',
     },
     {
-      url: 'websites-preview/knack-page.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/knack.html',
+      url: 'websites-preview/xfarm-logo.jpg',
+      websiteURL: 'https://xfarm.ag/en/',
     },
     {
-      url: 'websites-preview/magic.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/magic-app.html',
+      url: 'websites-preview/hcl-logo.png',
+      websiteURL: 'https://www.hcltech.com/',
     },
   ],
 };
@@ -54,20 +51,22 @@ export const SKILLS_LIST = {
   separation: 2.4,
   leftPadding: -0.4,
   topPadding: 0.33,
-  scale: 0.15,
+  scale: 0.2,
   items: [
-    { url: 'icons/react-native.png', websiteURL: null },
+    { url: 'icons/cpp-logo.jpg', websiteURL: null },
     { url: 'icons/react-logo.png', websiteURL: null },
     { url: 'icons/ts-logo.png', websiteURL: null },
     { url: 'icons/js-logo.png', websiteURL: null },
+    
+    { url: 'icons/python-logo.png', websiteURL: null },
+    { url: 'icons/react-native.png', websiteURL: null },
     { url: 'icons/css-logo.png', websiteURL: null },
     { url: 'icons/html-logo.png', websiteURL: null },
+
+    { url: 'icons/pytorch-logo.jpg', websiteURL: null },
     { url: 'icons/node-js-logo.png', websiteURL: null },
-    { url: 'icons/python-logo.png', websiteURL: null },
     { url: 'icons/three-js-logo.png', websiteURL: null },
     { url: 'icons/jest-logo.png', websiteURL: null },
-    { url: 'icons/graph-ql-logo.png', websiteURL: null },
-    { url: 'icons/vim-logo.png', websiteURL: null },
   ],
 };
 

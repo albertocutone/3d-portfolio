@@ -44,7 +44,7 @@ function StarsField(props) {
       <meshStandardMaterial
         color={theme.colors.stars}
         emissive={theme.colors.starsEmission}
-        emissiveIntensity={stars.emissionIntencity}
+        emissiveIntensity={stars.emissionIntensity}
       />
     </mesh>
   );
